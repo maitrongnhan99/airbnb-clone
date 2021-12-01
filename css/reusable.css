@@ -5,6 +5,7 @@
     --bg-annouce: #222222;
     --bg-header: #000000;
     --bg-hover: #262626;
+    --btn-hover: #EBEBEB;
 
     --white: #ffffff;
 
@@ -15,12 +16,13 @@
     --body-font: 'Poppins', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --bigger-font-size: 3rem;
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
-    --normal-font-size: .875rem;
-    --small-font-size: .813rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
     --smaller-font-size: .75rem;
 
     /*========== Font weight ==========*/
@@ -83,7 +85,6 @@ ol[role='list'] {
 html:focus-within {
   scroll-behavior: smooth;
 }
-
 /* Set core body defaults */
 body {
   position: relative;
@@ -168,4 +169,12 @@ select {
 .btn {
   outline: none;
   border: none;
+  height: 48px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
 }

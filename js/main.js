@@ -1,5 +1,10 @@
-const $ = document.querySelector.bind(this),
-$$ = document.querySelectorAll.bind(this);
+const $ = document.querySelector.bind(document),
+        $$ = document.querySelectorAll.bind(document);
     
 
-const options = $('.nav__item.options')
+const locationDropdown = $(".search .locations")
+
+locationDropdown.addEventListener('click', function() {
+    $('.locations__dropdown').style.display = 'block'
+})
+
