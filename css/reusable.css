@@ -178,3 +178,11 @@ select {
   padding-left: 0;
   margin-top: 0;
 }
+
+.display-block {
+  display: block !important;
+}
+
+.visible {
+  visibility: visible !important;
+}
