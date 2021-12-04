@@ -88,7 +88,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: var(--body-font);
@@ -185,4 +185,8 @@ select {
 
 .visible {
   visibility: visible !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
